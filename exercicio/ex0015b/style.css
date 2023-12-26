@@ -1,0 +1,19 @@
+body {
+    font-family: "Work Sans", Arial, Helvetica, sans-serif;
+    font-size: 1.5em; /*recomendação utlicar em para tamanho de fonte */
+    
+
+
+    /* Lighter Largura*/
+}
+
+h1 {
+
+    /* Shorthand font - agrupamentos de configuraçoes 
+    font - style - > font weith -> font size -> font family*/
+    font: italic bolder 2em arial, sans-serif;
+}
+
+h2 {
+    font: bold 1.2em arial;
+}

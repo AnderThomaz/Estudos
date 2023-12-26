@@ -1,0 +1,56 @@
+@charset "UTF-8";
+ /* Em HTML é id em css é # - para selecionar setores 
+ em html é class em css é . */
+
+body {
+    background-color: #332E29;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1 {
+    color:#E66A00 ;
+}
+h1#principal {
+    text-align: center;
+   
+}
+
+h2 {
+    color: #B36624;
+}
+
+p {
+    color: white;
+}
+
+.basico {
+    color: rgb(241, 0, 0);
+    font-weight: bolder;
+
+}
+
+.Intermediario{
+    color: rgb(45, 255, 168);
+
+}
+
+.avancado {
+    color: rgb(191, 167, 255);
+
+}
+
+.destaque {
+    background-color: rgba(255, 195, 116, 0.514);
+}
+
+
+/* Para fazer agrupamentos de class, utilizar o class=" " para colocar ele no grupo
+
+e no css personalizar a classe
+
+ex
+
+Id = #nome do id - somente usar em um elemento 
+Classe = .nome da classe - usar me varios elementos
+
+*/

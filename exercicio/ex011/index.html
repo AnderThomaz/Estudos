@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+
+    <p>Tente abrir esse site em varios dispositivos diferentes</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/foto-m.png" type="image/png">
+        <img src="img/foto-g.png" alt="foto letra g">
+
+    </picture>
+    
+    <h1>Produzir Audio</h1>
+   
+    <p>Vamos Produzir um audio</p>
+    <p>Todos os texte sobre isso e para o melhor apredizado nosso</p>
+
+    <audio preload="metadata" controls loop>
+        <source src="midia/musica1.mp3" type="audio/mpeg">
+
+    </audio>
+
+
+    <h1>Insirindo Video</h1>
+    <p>Vamos insirir video que esta hospedado no proprio servidor</p>
+
+    <video width="500" poster="midia/tamb.png" controls>
+        <source src="midia/Video2.mp4"  type="video/mp4">
+
+
+    </video>
+
+    <h1>Insirindo video no youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=-MznnsffxuM1iMOV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+</body>
+</html>
