@@ -1,44 +1,115 @@
 @charset "UTF-08";
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&display=swap');
 
 *{    /* Configuraçoes Globais*/
    font-family: Arial, Helvetica, sans-serif;
+   margin: 0px;
+   padding: 0px;
    /*height: 100%;*/
 }
 
-body {
-    /* fundo em degrade */
-    background-image: linear-gradient(190deg, #0367A6 50%,#195073,#1B3240 );
-    background-attachment: fixed;
-    height: 100%
-}
-
-main {
+header {
     background-color: white;
-    border-radius: 10px; /* Arrendodamentos de borda*/
-    box-shadow: 5px 5px 15px 5px #02446d9f; /*Sombras*/
-    width: 600px; /*Tamanho*/
-    padding: 10px; /*Margem */
-    margin:auto; /* deixar o documento no centro*/
-
-
-}
-
-h1 {color: #0367A6; 
     text-align: center;
-    text-shadow: 1x 1px 1px 2px #02446d9f;
-
+    padding: 20px;
+    background-image: url(fundo.jpg);
+    background-position:center center;
+    background-size: cover;
+    height: 400px;
+    
+    
 
 }
 
-h2 {
-    color: #195073;
+header > h2 {
+    
+    color: #ffffff;
+    padding-top: 100px;
+    font-family: 'Prompt';
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.466);
+    
+    
 }
 
-p {
-    color:rgb(0, 0, 0); text-align: justify;
+header > h1 {
+    font-size: 5em;
+    color: #ffffff;
+    font-family: 'Prompt';
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.466);
 }
 
-source{
+nav { 
+    
+    padding: 20px;
+    
+
+}
+nav > a {
+    text-decoration: none;
+    padding: 0px 20px;
+    transition-duration: 0.3s;
+    padding: 10px 20px;
+    font-weight: bolder;
+    color:  #ffffff;
+    text-shadow: 1px 2px 3px rgba(126, 126, 126, 0.233);
+    
+}
+
+nav > a:hover {
+    background-color: #ffffff;
+    border-radius: 5px;
+    color:#0F2E67;
+    
+}
+
+
+section {
+    
+    width: auto;
+    margin: 20px;
     text-align: center;
 
-} 
+    
+    
+    
+
+}
+
+
+
+
+
+
+
+section > p {
+    margin: 20px;
+}
+
+img {
+    width: 100%;
+    max-width: 1000px;
+    
+    margin: auto;
+}
+footer {
+    background-color: #0F2E67;
+    width: auto;
+    padding: 5px;
+    color: white;
+
+}
+
+footer > p {
+    text-align: center;
+    padding: 10px;
+}
+
