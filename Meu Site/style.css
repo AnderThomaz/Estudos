@@ -75,6 +75,7 @@ nav > a:hover {
 body {
     text-align: center;
     
+    
 }
 
 main {
@@ -82,31 +83,13 @@ main {
 
 }
 
-<<<<<<< Updated upstream
 p, h2 {
     padding: 20px;
     
-=======
-
-
-
-
-
-
-section > p {
-    margin: 20px;
-
->>>>>>> Stashed changes
 }
 section > img {
     width: 100%;
-<<<<<<< Updated upstream
-    max-width: 1000px;
-=======
-    max-width: 300px ;
-    
-    margin: auto;
->>>>>>> Stashed changes
+    max-width: 500px;
 }
 
 footer {
