@@ -36,7 +36,9 @@ header > h2 {
     
     
 }
-
+body {
+    min-width: 300px;
+}
 header > h1 {
     font-size: 5em;
     color: #ffffff;
@@ -73,6 +75,7 @@ nav > a:hover {
 body {
     text-align: center;
     
+    
 }
 
 main {
@@ -86,7 +89,7 @@ p, h2 {
 }
 section > img {
     width: 100%;
-    max-width: 1000px;
+    max-width: 500px;
 }
 
 footer {
@@ -121,5 +124,20 @@ footer {
     
     
 
+}
+
+.contatos {
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.contato {
+    text-align: left;
+}
+
+div {
+    margin: 20px;
+    
 }
 
