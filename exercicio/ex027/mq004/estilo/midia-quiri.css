@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+@media print {
+    * {
+        font-family: 'Courier New', Courier, monospace;
+        text-shadow: none;
+        color: black;
+    }
+
+    main {
+        border: 2px solid black;
+    }
+    main h1 {
+        font-family: 'Courier New', Courier, monospace;
+        text-shadow: none;
+        color: black;
+    }
+    body{
+        font-family: 'Courier New', Courier, monospace;
+        text-shadow: none;
+        color: black;
+    }
+    #phone {
+        display: none;
+        margin: auto;
+    }
+    
+#tablet {
+        display: none;
+        margin: auto;
+    }
+    
+#print {
+        display: block;
+        margin: auto;
+    }
+    
+#tv {
+        display: none;
+    }
+    
+#pc {
+        display: none;
+    }
+    
+}
+
+
+
+  
+/* Tabletes */
+@media only screen and (min-width: 768px) {
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+
+    
+    #phone {
+            display: none;
+            margin: auto;
+        }
+        
+    #tablet {
+            display: block;
+            margin: auto;
+        }
+        
+    #print {
+            display: none;
+        }
+        
+    #tv {
+            display: none;
+        }
+        
+    #pc {
+            display: none;
+        }
+        
+    }
+
+
+/* Desktop */
+@media only screen and (min-width: 992px) {
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    #phone {
+        display: none;
+        margin: auto;
+    }
+    
+#tablet {
+        display: none;
+        margin: auto;
+    }
+    
+#print {
+        display: none;
+    }
+    
+#tv {
+        display: none;
+        margin: auto;
+    }
+    
+#pc {
+        display: block;
+        margin: auto;
+    }
+    
+}
+
+  
+/* tvs */
+@media only screen and (min-width: 1200px) {
+ body {
+    background-image: url(../imagens/back-tv.jpg);
+    
+ }
+ #phone {
+    display: none;
+    margin: auto;
+}
+
+#tablet {
+    display: none;
+    margin: auto;
+}
+
+#print {
+    display: none;
+}
+
+#tv {
+    display: block;
+    margin: auto;
+}
+
+#pc {
+    display: none;
+}
+
+}
